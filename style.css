@@ -1,0 +1,45 @@
+body{
+   background-color: gray;
+}
+
+header {
+   height: 75px;
+   background-color: lightblue;
+   text-align: center;
+}
+
+#count-container {
+   margin: 0 auto;
+   height: 250px;
+   width: 150px;
+   background-color: burlywood;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+}
+
+#count {
+   font-size: 35px;
+}
+
+#button-group {
+   display: flex;
+   justify-content: center;
+}
+
+.count-buttons {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   font-size: 20px;
+}
+
+#decrement {
+   background-color: red;
+}
+
+#increment {
+   background-color: green;
+}
